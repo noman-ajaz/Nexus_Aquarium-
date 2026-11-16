@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+}
+
+.bgc{
+    background-color: rgba(46, 46, 150, 0.219);
+}
+
+.banner {
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 3px 0;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+    font-weight: bolder;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+.banner_text{
+    position: absolute;
+    top: 0;
+    margin-left: 7%;
+    margin-top: 15%;
+    color: white;
+}
+.events{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.events h6{
+    font-style: italic;
+    font-weight: lighter;
+}
+.events a{
+    color: black;
+    text-decoration: none;
+}
+.events a:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Example hover effect */
+    transform: scale(1.05); /* Slightly enlarges the card */
+}
+
+.ep{
+    margin-right: 10%;
+    color: white;
+}
+.ep a{
+    color: rgba(255, 255, 255, 0.63);
+}
+.ept{
+    margin-left: 20%;
+    float: left;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 2px solid #101039;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  
+  .pagination a.active {
+    background-color: #101039;
+    color: white;
+    border: 2px solid #101039;
+    border-radius: 50%;
+    text-decoration: none;
+
+  }
+  
+  .pagination a:hover:not(.active) {
+    text-decoration: none;
+    color: #101039;    
+
+
+}
+  

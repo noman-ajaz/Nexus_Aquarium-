@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+
+.bgc{
+    background-color: rgba(46, 46, 150, 0.219);
+}
+
+.banner {
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 3px 0;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+    font-weight: bolder;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+.banner_text{
+    position: absolute;
+    top: 0;
+    margin-left: 7%;
+    margin-top: 10%;
+    color: white;
+}
+
+
+.gallery{
+    margin-left: 15%; 
+}
+.gallery h6{
+    font-style: italic;
+    font-size: 20px;
+}
+.gallery h5{
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 2px solid #101039;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  
+  .pagination a.active {
+    background-color: #101039;
+    color: white;
+    border: 2px solid #101039;
+    border-radius: 50%;
+    text-decoration: none;
+
+  }
+  
+  .pagination a:hover:not(.active) {
+    text-decoration: none;
+    color: #101039;    
+
+
+}
+  
