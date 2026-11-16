@@ -1,0 +1,55 @@
+button {
+    background-color: rgba(144,201,245,255);
+    color:#101039;
+    text-decoration: none;
+    font-weight: bold;
+    border-color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+
+} 
+.form h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.explore{
+    margin-top: 15px;
+}
+
+button{
+    background-color: rgba(144,201,245,255);
+    border-radius: 50px;
+    border-color: #101039;
+    padding: 10px;
+    margin-left: 70%;
+}
+
+button a{
+    color: white;   
+}
+
+button a:hover{
+    text-decoration: none;
+    color: #101039;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.login{
+margin: 5%;
+background-color: lightgrey;
+background-image: url(images/ob.jpg);
+background-size: cover;
+background-attachment: fixed;
+color: whitesmoke;
+border-radius: 50px;
+padding: 1%;
+border: solid rgb(0, 0, 0);
+}
+
+.login-2{
+width: 70%;
+}
